@@ -1,0 +1,302 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+Osmanya&family=Oswald:wght@200;600&family=Poppins:ital,wght@1,300&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    text-decoration: none;
+    font-family: 'Bebas Neue', sans-serif;
+font-family: 'Noto Sans Osmanya', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+.logo{
+    width: 20%;
+}
+.logoimg{
+    width:15vw;
+    height: 20vh;
+}
+.nav{
+    width: 95%;
+    margin-top: 10px;
+display: flex;
+justify-content: start;
+align-items: center;
+border-bottom: 1px solid gray;
+margin-left: 30px;
+}
+
+.side{
+    width: 70%;
+    opacity: .7;
+    margin-left: 10%;
+}
+#header-text{
+    text-transform: uppercase;
+    word-spacing: 2vw;
+    letter-spacing: 3px;
+    font-size: 2.7vw;
+    margin-left:0px;
+    font-weight: 900;
+
+}
+.links{
+
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap:5%;
+    font-size: 1.7vw;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: 5%;
+
+
+}
+.links .h4:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.about{
+    margin-top: 30vh;
+    display: flex;
+    justify-content:space-around;
+    opacity: .7;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 20vh;
+    align-items: center;}
+
+
+.main-image{
+    height:40vh ;
+    border-radius: 5%;
+    width: 25vw;
+border-bottom-right-radius: 50%;
+border-top-left-radius: 50%;
+scale: 1;
+
+}
+.right-section{
+    font-size: 1.5vw;
+    padding-left: 5%;
+    padding-right: 8%;
+letter-spacing: 1.5px;
+margin-top: 20px;
+scale: 1;
+
+}
+.aboutus{
+    margin-bottom: 20px;
+}
+.subjects{
+    padding:12% 30%
+}
+.subjects .sub{
+    cursor: pointer;
+    opacity: .7;
+    padding:1.5% 8%;
+    font-size: 1.5vw;
+}
+.subjects .sub a{
+    color: aquamarine;
+}
+.subjects .sub a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.math-heading{
+    opacity: .7;
+    font-size: 2vw;
+    margin: 5% 0;
+
+}
+.subjects-h1{
+    padding-left: 20%;
+    font-size: 2.5vw;
+      text-transform: uppercase;
+      opacity: .8;
+      margin-bottom: 10%;
+      border-bottom: 3px solid slategray;
+}
+.subjects-h2{
+    font-size: 2.5vw;
+      text-transform: uppercase;
+      opacity: .7;
+      margin: 7% 25% 10% 25% ;
+      padding-left: 10%;
+      border-bottom: 3px solid slategray;
+}
+.math-section{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.algebra{
+    width: 23%;
+    border: 3.5px solid rgb(64, 61, 61);
+    border-radius: 3%;
+    padding-bottom: 15px;
+    margin-bottom: 10%;
+    scale: .9;
+}
+.algebra:hover{
+    scale: 1;
+}
+.img1{
+    height: 30vh;
+    width: 100%;
+    background: cover;
+    border-radius: 3%;
+
+}
+.algebra h3 a{
+    margin: 5% 5%;
+    cursor: pointer;
+    font-size: 1.5vw;
+    opacity: .7;
+}
+.algebra h3 a:hover{
+    color:red;
+    text-decoration: underline;
+}
+.name-subject{
+    opacity: .8;
+    margin: 5% 0%;
+    margin-left: 5%;
+    text-transform: uppercase;
+    font-size: 1.6vw;color: rgb(250, 203, 142);
+
+}
+.sub-heading{
+    font-size: 2.5vw;
+    margin-bottom: 30px;
+    margin-left: 45%;
+    opacity: .7;
+}
+#quick{
+    padding-bottom: 30vh;
+}
+.about-quick-links{
+    font-size: 1.7vw;
+    opacity: .6;
+    margin-left: 15%;
+}
+.list-links{
+    opacity: .7;
+    font-size: 1.5vw;
+    margin: 5% 20% 4%  20%;
+    font-weight: 600;
+    list-style: none;
+
+}
+.list-links li a:hover{
+    color:red;
+    text-decoration: underline;
+    background-color: rgb(123, 121, 121);
+
+
+}
+.list-links li{
+    padding: 9px 25px;
+    margin: 40px;
+    border: 3.5px solid rgb(71, 68, 68);
+    border-radius: 15px;
+}
+.list-links li:hover{
+    border-color:rgb(203, 203, 209)e;
+    background-color: rgb(123, 121, 121);
+    scale: 1.06;
+}
+.intro{
+    margin: 0 0 2.5% 37%;
+    font-size: 22px;
+}
+.intro h3{
+    color: rgb(229, 95, 95);
+    font-weight: 900;
+
+}
+.priya{
+    color: rgb(229, 95, 95);
+    font-size: 22px;
+    font-weight: 900;
+
+
+}
+.priya:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.bottom-btn{
+    font-size: 20px;
+    padding: 3px 5px 3px 10px;
+    border: 2px solid blue;
+    background-color: rgb(104, 104, 230);
+    color:black ;
+    cursor: pointer;
+    font-weight: 900;
+    border-radius: 20px;
+
+}
+.bottom-btn:hover{
+    scale:1.1; 
+    color: blue;
+    background-color: rgb(175, 171, 171);
+    border:2px solid rgb(58, 37, 221) ;
+
+
+}
+.last-btn{
+    position: fixed;
+    bottom:20px;
+    right: 20px;
+
+}
+  @media ( max-width: 1024px)
+  {
+    .algebra{
+        width: 45%;
+    }
+    .list-links{
+        margin: 3% 7%;
+
+    }
+    .intro{
+        margin: 0 0 7% 25%;
+        font-size: 20px;
+
+    }
+    .main-image{
+        display: none;
+    }
+
+
+  }
+  @media (max-width: 450px) {
+    .algebra{
+        width: 80%;
+    }
+    .list-links{
+        margin: 3%;
+
+    }
+    .intro{
+        margin: 0 0 7% 4%;
+        font-size: 15px;
+
+    }
+    .main-image{
+        display: none;
+    }
+  }
